@@ -1,0 +1,64 @@
+/* reset */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start Main */
+
+.main-section-1 {
+    height: 120px;
+    background-color: blueviolet;
+    margin-top: 20px;
+}
+
+.main-section-2 {
+    height: 360px;
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+.head {
+    height: 100px;
+    background-color: skyblue;
+    margin-top: 20px;
+    border-bottom: 10px solid blue;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.column {
+    float: left;
+}
+
+.col-left,
+.col-right {
+    width: 20%;
+    height: 500px;
+    background-color: skyblue;
+    border-bottom: 10px solid blue;
+}
+
+.col-middle {
+    width: 60%;
+    height: 500px;
+    background-color: skyblue;
+    border-left: 10px solid blue;
+    border-right: 10px solid blue;
+    border-bottom: 10px solid blue;
+}
+
+/* End Main */
+
+.last-container {
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    margin-top: 20px;
+}
